@@ -6,7 +6,7 @@ function Header() {
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <NavLink
-          to="/Portfolio-react/"
+          to="/Portfolio-react"
           end
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
