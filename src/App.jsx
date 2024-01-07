@@ -6,7 +6,9 @@ import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
 import ContactForm from './components/pages/ContactForm';
 
+
 function App() {
+  // console.log(React);
   return (
     <Router>
       <Header />
@@ -14,10 +16,10 @@ function App() {
       <Routes>
         {/* Define routes using the Route component to render different page components at different paths */}
         {/* Define a default route that will render the Home component */}
-        <Route path="/Portfolio-react/" element={<Home />} />
-        <Route path="/Portfolio-react/projects/" element={<Projects />} />
+        <Route path="Test-route/" element={<Home />} />
+        <Route path="Test-route/projects/" element={<Projects />} />
         {/* Define a route that will have descendant routes */}
-        <Route path="/Portfolio-react/contact/*" element={<Contact />} />
+        <Route path="Test-route/contact/*" element={<Contact />} />
       </Routes>
       <footer>
     <div class="align-bottom">
