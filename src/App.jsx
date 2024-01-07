@@ -15,7 +15,7 @@ function App() {
         {/* Define routes using the Route component to render different page components at different paths */}
         {/* Define a default route that will render the Home component */}
         <Route path="/Portfolio-react/" element={<Home />} />
-        <Route path="/Portfolio-react/projects" element={<Projects />} />
+        <Route path="/Portfolio-react/projects/" element={<Projects />} />
         {/* Define a route that will have descendant routes */}
         <Route path="/Portfolio-react/contact/*" element={<Contact />} />
       </Routes>
